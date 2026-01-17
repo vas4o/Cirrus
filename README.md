@@ -12,8 +12,11 @@
 ### Linux
 - `qemu-system-x86_64`
 
-Debian / Ubuntu:
+Installation for linux:
 ```bash
+git clone https://github.com/vas4o/Cirrus.git
+cd Cirrus
+
 sudo apt install qemu-system-x86
 
 qemu-system-x86_64 -kernel bzImage -initrd initramfs.gz -append "console=ttyS0" -nographic
